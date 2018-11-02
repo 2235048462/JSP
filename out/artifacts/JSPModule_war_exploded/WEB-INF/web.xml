@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>testconfig</servlet-name>
+        <jsp-file>/testconfig.jsp</jsp-file>
+        <init-param>
+            <param-name>database-ip</param-name>
+            <param-value>localhost:8080</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testconfig</servlet-name>
+        <url-pattern>/testconfig</url-pattern>
+    </servlet-mapping>
+</web-app>
